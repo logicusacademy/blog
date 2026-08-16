@@ -257,6 +257,13 @@
     padding: 28px 24px;
     box-shadow: var(--shadow-card);
     position: relative;
+    display: block;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+a.more-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-card-hover);
 }
 .more-tag {
     display: inline-block;
@@ -281,6 +288,13 @@
     background: rgba(92, 122, 153, 0.12);
     padding: 4px 10px;
     border-radius: 999px;
+}
+.more-status-ready {
+    color: var(--white);
+    background: var(--orange);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
 }
 
 /* ============ CTA (article page variant) ============ */
