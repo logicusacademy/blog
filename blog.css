@@ -231,6 +231,47 @@
     margin: 0;
 }
 
+.article-references {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid rgba(19, 64, 90, 0.1);
+}
+.references-title {
+    font-size: 1.25rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 12px;
+}
+.references-intro {
+    font-size: 0.92rem;
+    color: var(--slate);
+    margin-bottom: 20px;
+}
+.references-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.references-list li {
+    font-size: 0.9rem;
+    color: var(--charcoal);
+    line-height: 1.6;
+    padding-left: 1.75em;
+    text-indent: -1.75em;
+}
+.references-list em {
+    font-style: italic;
+    color: var(--navy);
+}
+.reference-note {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--slate);
+    font-style: italic;
+    text-indent: 0;
+    margin-top: 2px;
+}
+
 .author-box {
     display: flex;
     gap: 16px;
