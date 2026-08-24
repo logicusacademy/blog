@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Logicus Academy — Bacaan Seputar Cara Berpikir &amp; Metode Belajar</title>
-    <meta name="description" content="Blog Logicus Academy: artikel seputar metode berpikir, metode belajar, dan riset untuk siswa, guru, dan orang tua yang ingin belajar berpikir, bukan sekadar menghafal.">
+    <title>Metakognisi: Keterampilan "Sadar Cara Berpikir Sendiri" yang Jarang Diajarkan di Sekolah — Blog Logicus Academy</title>
+    <meta name="description" content="Metakognisi — kemampuan menyadari dan mengatur cara berpikir sendiri — terbukti riset sebagai salah satu prediktor terkuat keberhasilan belajar. Tapi kenapa jarang diajarkan eksplisit di sekolah? Simak ulasannya di Blog Logicus Academy.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="blog.css">
@@ -41,7 +41,7 @@
             <nav class="main-nav" id="main-nav">
                 <ul>
                     <li><a href="index.html">Blog</a></li>
-                    <li><a href="#kategori">Kategori</a></li>
+                    <li><a href="index.html#kategori">Kategori</a></li>
                     <li><a href="https://logicus.online/#program">Program</a></li>
                     <li><a href="https://logicus.online/#kontak">Kontak</a></li>
                 </ul>
@@ -57,41 +57,134 @@
     </header>
 
     <main id="main">
-        <!-- ============ BLOG HERO ============ -->
-        <section class="blog-hero">
+        <!-- ============ BREADCRUMB ============ -->
+        <div class="breadcrumb-bar">
             <div class="container">
-                <p class="eyebrow" data-reveal>Blog Logicus Academy</p>
-                <h1 data-reveal>Bacaan Seputar Cara Berpikir &amp; Metode Belajar</h1>
-                <p class="blog-hero-lead" data-reveal>Artikel untuk siswa, guru, dan orang tua yang ingin memahami cara belajar yang benar-benar melekat — bukan sekadar untuk lulus ujian besok pagi.</p>
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Blog</a>
+                    <span aria-hidden="true">/</span>
+                    <a href="index.html#kategori-metode-berpikir">Metode Berpikir</a>
+                    <span aria-hidden="true">/</span>
+                    <span aria-current="page">Metakognisi</span>
+                </nav>
             </div>
-        </section>
+        </div>
 
-        <!-- ============ FEATURED POST ============ -->
-        <section class="featured-post-section">
-            <div class="container">
-                <p class="section-eyebrow" data-reveal>Artikel Terbaru</p>
-                <a href="metakognisi.html" class="featured-post" data-reveal>
-                    <div class="featured-post-visual" aria-hidden="true">
-                        <svg viewBox="0 0 200 200" fill="none">
-                            <circle cx="100" cy="100" r="86" stroke="#5C7A99" stroke-width="1" stroke-dasharray="2 8"/>
-                            <path d="M100 55 A45 45 0 1 1 57 92" stroke="#13405A" stroke-width="6" fill="none" stroke-linecap="round"/>
-                            <path d="M46 82 L57 92 L69 80" stroke="#13405A" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <circle cx="100" cy="100" r="11" fill="#FF9610"/>
-                        </svg>
-                    </div>
-                    <div class="featured-post-copy">
-                        <span class="article-tag">Metode Berpikir</span>
-                        <h2>Metakognisi: Keterampilan "Sadar Cara Berpikir Sendiri" yang Jarang Diajarkan di Sekolah</h2>
-                        <p>Sekolah mengajarkan apa yang harus dipikirkan, jarang mengajarkan cara menyadari dan mengatur proses berpikir itu sendiri.</p>
-                        <div class="featured-post-meta">
-                            <span><i class="fa-regular fa-calendar"></i> 22 Agustus 2026</span>
-                            <span><i class="fa-regular fa-clock"></i> 8 menit baca</span>
+        <!-- ============ ARTICLE HEADER ============ -->
+        <header class="article-header">
+            <div class="container article-header-inner">
+                <span class="article-tag">Metode Berpikir</span>
+                <h1>Metakognisi: Keterampilan "Sadar Cara Berpikir Sendiri" yang Jarang Diajarkan di Sekolah</h1>
+                <p class="article-lede">Sekolah mengajarkan apa yang harus dipikirkan — rumus, fakta, teori. Tapi jarang ada yang mengajarkan cara menyadari dan mengatur proses berpikir itu sendiri, padahal riset menunjukkan keterampilan ini salah satu prediktor terkuat keberhasilan belajar.</p>
+                <div class="article-meta">
+                    <div class="article-meta-author">
+                        <span class="author-avatar" aria-hidden="true"><i class="fa-solid fa-brain"></i></span>
+                        <div>
+                            <p class="author-name">Tim Logicus Academy</p>
+                            <p class="author-sub">Divisi Riset &amp; Kurikulum</p>
                         </div>
-                        <span class="featured-post-cta">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></span>
                     </div>
-                </a>
+                    <div class="article-meta-info">
+                        <span><i class="fa-regular fa-calendar"></i> 22 Agustus 2026</span>
+                        <span><i class="fa-regular fa-clock"></i> 8 menit baca</span>
+                    </div>
+                </div>
             </div>
-        </section>
+        </header>
+
+        <!-- ============ ARTICLE BODY ============ -->
+        <article class="article-body">
+            <div class="container article-grid">
+
+                <!-- Table of contents -->
+                <aside class="article-toc" data-reveal>
+                    <p class="toc-title">Daftar Isi</p>
+                    <ol>
+                        <li><a href="#ilusi-paham">Merasa Paham, Padahal Belum</a></li>
+                        <li><a href="#apa-itu">Apa Itu Metakognisi</a></li>
+                        <li><a href="#tiga-komponen">Tiga Komponen Metakognisi</a></li>
+                        <li><a href="#bukti-riset">Bukti dari Riset</a></li>
+                        <li><a href="#ilusi-kompetensi">Musuh Utama: Ilusi Kompetensi</a></li>
+                        <li><a href="#jarang-diajarkan">Kenapa Jarang Diajarkan Eksplisit</a></li>
+                        <li><a href="#cara-melatih">Cara Melatih Metakognisi</a></li>
+                        <li><a href="#daftar-pustaka">Daftar Pustaka</a></li>
+                    </ol>
+                </aside>
+
+                <div class="article-content">
+
+                    <h2 id="ilusi-paham" data-reveal>Merasa Paham, Padahal Belum</h2>
+                    <p data-reveal>Seorang siswa membaca ulang catatan biologi tiga kali sebelum ujian. Setiap kali membaca, kalimatnya terasa makin akrab, makin masuk akal, makin "sudah tahu ini". Ia yakin sudah siap. Tapi begitu duduk di ruang ujian dan harus menjawab tanpa melihat catatan, banyak yang ternyata tidak bisa ia jelaskan sendiri.</p>
+                    <p data-reveal>Situasi ini bukan soal siswa itu malas atau bodoh. Ia mengalami kegagalan pada keterampilan yang jarang diajarkan eksplisit di sekolah: <strong>metakognisi</strong> — kemampuan menyadari dan mengatur cara berpikirnya sendiri. Sekolah biasa mengajarkan <em>apa</em> yang harus dipikirkan (rumus, fakta, teori). Nyaris tidak ada yang mengajarkan cara mengecek apakah cara berpikir dan cara belajar itu sendiri sedang berjalan efektif atau tidak.</p>
+
+                    <h2 id="apa-itu" data-reveal>Apa Itu Metakognisi</h2>
+                    <p data-reveal>Istilah metakognisi diperkenalkan psikolog John Flavell pada 1979, didefinisikan secara sederhana sebagai "berpikir tentang berpikir sendiri". Lebih tepatnya: kesadaran dan pemahaman seseorang terhadap proses kognitifnya sendiri, sekaligus kemampuan mengatur proses itu — merencanakan sebelum mengerjakan sesuatu, memantau saat sedang mengerjakannya, dan mengevaluasi setelah selesai.</p>
+                    <p data-reveal>Bedanya dengan kognisi biasa: kognisi adalah proses berpikir itu sendiri (mengingat rumus, memahami bacaan, menyelesaikan soal). Metakognisi adalah lapisan di atasnya — <em>menyadari</em> bagaimana proses berpikir itu berjalan, dan mengambil keputusan untuk memperbaikinya kalau perlu.</p>
+
+                    <h2 id="tiga-komponen" data-reveal>Tiga Komponen Metakognisi</h2>
+                    <p data-reveal>Riset psikologi pendidikan umumnya membagi metakognisi menjadi tiga komponen yang saling berkaitan:</p>
+                    <p data-reveal><strong>Pengetahuan metakognitif</strong> — pemahaman tentang diri sendiri sebagai pembelajar (misalnya, "saya lebih mudah paham lewat diagram daripada teks panjang"), tentang tugas yang dihadapi, dan tentang strategi apa yang cocok untuk tugas tersebut.</p>
+                    <p data-reveal><strong>Regulasi metakognitif</strong> — tindakan aktif mengatur proses belajar, mencakup tiga tahap: <em>perencanaan</em> (memilih strategi sebelum mulai), <em>pemantauan</em> (mengecek pemahaman saat sedang berjalan), dan <em>evaluasi</em> (menilai hasil setelah selesai untuk perbaikan berikutnya).</p>
+                    <p data-reveal><strong>Pengalaman metakognitif</strong> — perasaan atau penilaian yang muncul selama proses belajar, seperti rasa "ini terasa sulit" atau "sepertinya saya sudah paham" — yang, seperti akan dibahas nanti, ternyata tidak selalu bisa dipercaya begitu saja.</p>
+
+                    <h2 id="bukti-riset" data-reveal>Bukti dari Riset</h2>
+                    <p data-reveal>Metakognisi bukan sekadar konsep teoretis yang terdengar bagus di atas kertas. Sebuah meta-analisis yang meninjau 147 studi dengan hampir 700.000 partisipan dari jenjang prasekolah hingga universitas menemukan korelasi positif yang signifikan antara metakognisi dan capaian belajar matematika. Meta-analisis lain yang berfokus pada intervensi metakognitif dalam pembelajaran matematika bahkan menemukan ukuran efek yang tergolong besar.</p>
+                    <p data-reveal>Efeknya juga terbukti pada anak-anak usia dini: sebuah meta-analisis 2025 yang meninjau 67 studi menemukan intervensi metakognisi memberi manfaat pada saat itu juga, dan manfaat itu masih terdeteksi beberapa bulan kemudian — meski dengan ukuran efek yang mengecil seiring waktu, pola yang wajar untuk hampir semua intervensi pendidikan.</p>
+
+                    <div class="callout" data-reveal>
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <p>Metakognisi bukan bakat bawaan yang dimiliki sebagian orang saja. Ia adalah keterampilan yang terbukti bisa dilatih — dan ketika dilatih, dampaknya terasa pada capaian belajar di berbagai jenjang dan mata pelajaran.</p>
+                    </div>
+
+                    <h2 id="ilusi-kompetensi" data-reveal>Musuh Utama: Ilusi Kompetensi</h2>
+                    <p data-reveal>Kembali ke siswa yang membaca ulang catatan tadi — apa yang sebenarnya terjadi di kepalanya? Psikolog menyebutnya <em>ilusi kompetensi</em> atau <em>fluency illusion</em>: kekeliruan menilai familiaritas terhadap materi sebagai bukti sudah menguasainya. Semakin sering suatu kalimat dibaca, semakin "lancar" otak memprosesnya — dan kelancaran itu keliru ditafsirkan sebagai tanda paham, padahal recognize (mengenali sesuatu yang familiar) jauh lebih mudah daripada recall (mengingat dan menjelaskan ulang tanpa bantuan).</p>
+                    <p data-reveal>Penelitian klasik Koriat dan Bjork menunjukkan bahwa penilaian seseorang terhadap seberapa baik ia akan mengingat sesuatu nanti (disebut <em>judgment of learning</em>) sangat dipengaruhi oleh kelancaran memproses materi saat ini — bukan oleh seberapa kuat materi itu benar-benar tersimpan di memori jangka panjang. Akibatnya, metode belajar yang terasa nyaman (membaca ulang, menggarisbawahi) sering kali memberi rasa percaya diri yang tidak sepadan dengan pemahaman yang sesungguhnya.</p>
+                    <p data-reveal>Masalah ini makin pelik karena orang yang paling lemah kalibrasi dirinya justru paling percaya diri. Riset klasik Kruger dan Dunning menemukan siswa dengan performa terendah cenderung menaksir kemampuan mereka jauh di atas kenyataan — sebuah pola yang kini dikenal luas sebagai efek Dunning-Kruger. Untuk bisa menyadari "saya belum paham", seseorang butuh keterampilan metakognitif yang justru sering ikut lemah pada orang yang pemahamannya juga lemah.</p>
+
+                    <div class="callout callout-navy" data-reveal>
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <p>Merasa paham dan benar-benar paham adalah dua hal berbeda. Metakognisi yang baik adalah kemampuan membedakan keduanya — sebelum ujian yang membedakannya secara paksa.</p>
+                    </div>
+
+                    <h2 id="jarang-diajarkan" data-reveal>Kenapa Jarang Diajarkan Eksplisit di Sekolah</h2>
+                    <p data-reveal>Kurikulum sekolah pada umumnya disusun berdasarkan konten — bab, kompetensi dasar, capaian pembelajaran per mata pelajaran. Waktu mengajar sudah habis untuk mengejar cakupan materi, sehingga jarang tersisa ruang eksplisit untuk mengajarkan <em>cara belajar itu sendiri</em> sebagai keterampilan tersendiri. Metakognisi akhirnya dianggap sesuatu yang "akan terbentuk sendiri seiring waktu", padahal riset menunjukkan ia bisa — dan sebaiknya — diajarkan secara langsung, bukan dibiarkan berkembang secara kebetulan.</p>
+                    <p data-reveal>Ini pula yang menjadi salah satu alasan filosofi <em>belajar berpikir, bukan sekadar menghafal</em> penting ditekankan sejak dini: siswa yang hanya dilatih mengingat isi bab tidak otomatis belajar cara mengecek apakah pemahamannya terhadap bab itu sudah cukup kuat atau masih rapuh.</p>
+
+                    <h2 id="cara-melatih" data-reveal>Cara Melatih Metakognisi</h2>
+                    <p data-reveal>Beberapa kebiasaan sederhana bisa melatih ketiga komponen metakognisi yang dibahas di atas:</p>
+                    <p data-reveal><strong>Bertanya sebelum mulai (perencanaan).</strong> "Apa yang sudah saya tahu tentang topik ini? Strategi apa yang paling cocok — membaca, membuat ringkasan, atau mengerjakan soal latihan?"</p>
+                    <p data-reveal><strong>Uji diri sebelum menilai paham (pemantauan).</strong> Alih-alih membaca ulang lalu langsung merasa yakin, tutup catatan dan coba jelaskan materi dengan kata sendiri atau kerjakan soal tanpa contekan terlebih dahulu — baru setelah itu nilai seberapa jauh pemahamannya. Cara ini secara langsung melawan ilusi kompetensi, karena penilaian dibuat berdasarkan kemampuan mengingat yang sesungguhnya, bukan sekadar rasa familiar terhadap materi.</p>
+                    <p data-reveal><strong>Refleksi setelah selesai (evaluasi).</strong> "Bagian mana yang tadi saya kira sudah paham, ternyata belum? Strategi belajar mana yang paling membantu, mana yang buang-buang waktu?" Jawaban dari pertanyaan ini menjadi bekal untuk memperbaiki strategi belajar berikutnya.</p>
+
+                    <h2 data-reveal>Kesimpulan</h2>
+                    <p data-reveal>Metakognisi adalah keterampilan tersembunyi di balik hampir semua keberhasilan belajar — bukan bakat bawaan, melainkan kebiasaan yang bisa dilatih lewat pertanyaan sederhana sebelum, selama, dan sesudah belajar. Tanpanya, siswa berisiko terjebak ilusi kompetensi: merasa sudah paham padahal belum, dan baru menyadarinya saat sudah terlambat di ruang ujian. Di Logicus Academy, melatih siswa bertanya "apakah saya benar-benar paham ini?" sama pentingnya dengan mengajarkan jawaban itu sendiri.</p>
+
+                    <div class="article-references" id="daftar-pustaka" data-reveal>
+                        <h2 class="references-title">Daftar Pustaka</h2>
+                        <p class="references-intro">Artikel ini disusun oleh Tim Logicus Academy berdasarkan tinjauan literatur psikologi kognitif dan pendidikan, dengan rujukan sebagai berikut (gaya APA edisi ke-7):</p>
+                        <ul class="references-list">
+                            <li>Dunlosky, J., &amp; Rawson, K. A. (2012). Overconfidence produces underachievement: Inaccurate self-evaluations undermine students' learning and retention. <em>Learning and Instruction, 22</em>(4), 271–280. https://doi.org/10.1016/j.learninstruc.2011.08.003</li>
+                            <li>Eberhart, J., et al. (2025). Are metacognition interventions in young children effective? Evidence from a series of meta-analyses. <em>Metacognition and Learning</em>. https://doi.org/10.1007/s11409-024-09405-x <span class="reference-note">(daftar nama penulis lengkap belum dapat diverifikasi Tim Logicus Academy)</span></li>
+                            <li>Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. <em>American Psychologist, 34</em>(11), 906–911. https://doi.org/10.1037/0003-066X.34.10.906</li>
+                            <li>Koriat, A., &amp; Bjork, R. A. (2005). Illusions of competence in monitoring one's knowledge during study. <em>Journal of Experimental Psychology: Learning, Memory, and Cognition, 31</em>(2), 187–194. https://doi.org/10.1037/0278-7393.31.2.187</li>
+                            <li>Kruger, J., &amp; Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments. <em>Journal of Personality and Social Psychology, 77</em>(6), 1121–1134. https://doi.org/10.1037/0022-3514.77.6.1121</li>
+                            <li>Meta-analisis hubungan metakognisi dan capaian belajar matematika dari prasekolah hingga universitas (147 studi, 698.096 partisipan, 1986–2024). <em>Acta Psychologica, 249</em>, Article 104486. https://doi.org/10.1016/j.actpsy.2024.104486</li>
+                            <li>Sercenia, J. C., &amp; Prudente, M. S. (2023). Effectiveness of the metacognitive-based pedagogical intervention on mathematics achievement: A meta-analysis. <em>International Journal of Instruction, 16</em>(4), 561–578. https://doi.org/10.29333/iji.2023.16432a</li>
+                        </ul>
+                    </div>
+
+                    <!-- Author box -->
+                    <div class="author-box" data-reveal>
+                        <span class="author-avatar author-avatar-lg" aria-hidden="true"><i class="fa-solid fa-brain"></i></span>
+                        <div>
+                            <p class="author-name">Ditulis oleh Tim Logicus Academy</p>
+                            <p class="author-sub">Kami menyusun materi metode berpikir dan pendampingan riset untuk siswa SD hingga mahasiswa, termasuk pembinaan kompetisi karya tulis ilmiah seperti OSN, LPIR, COSMII, dan OPSI.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </article>
 
         <!-- ============ ARTIKEL LAINNYA ============ -->
         <section class="more-articles" id="kategori">
@@ -100,22 +193,22 @@
                 <h2 data-reveal>Artikel Lainnya dari Blog Logicus</h2>
 
                 <div class="more-grid">
-                    <a href="self-efficacy-vs-growth-mindset.html" class="more-card" data-reveal>
+                    <a href="self-efficacy-vs-growth-mindset.html" class="more-card">
                         <span class="more-tag" id="kategori-psikologi-belajar">Psikologi Belajar</span>
                         <h3>Self-Efficacy vs Growth Mindset: Mirip tapi Tidak Sama</h3>
                         <p>Dua istilah ini sering dipakai bergantian, padahal diciptakan dua psikolog berbeda dengan definisi berbeda pula.</p>
                         <span class="more-status more-status-ready">Baca Artikel <i class="fa-solid fa-arrow-right"></i></span>
                     </a>
-                    <a href="jenis-jenis-mindset.html" class="more-card" data-reveal>
-                        <span class="more-tag">Psikologi Belajar</span>
-                        <h3>Jenis-Jenis Mindset: Lebih dari Sekadar Fixed vs Growth Mindset</h3>
-                        <p>Psikologi mengenal beberapa kerangka mindset lain yang sama pentingnya untuk dipahami.</p>
+                    <a href="perbedaan-berpikir-analitis-dan-kritis.html" class="more-card">
+                        <span class="more-tag" id="kategori-metode-berpikir">Metode Berpikir</span>
+                        <h3>Perbedaan Berpikir Analitis dan Kritis</h3>
+                        <p>Dua istilah yang sering tertukar, padahal punya peran berbeda dalam proses bernalar.</p>
                         <span class="more-status more-status-ready">Baca Artikel <i class="fa-solid fa-arrow-right"></i></span>
                     </a>
-                    <a href="growth-mindset.html" class="more-card" data-reveal>
-                        <span class="more-tag">Psikologi Belajar</span>
-                        <h3>Growth Mindset: Apa Kata Riset Psikologi 5 Tahun Terakhir?</h3>
-                        <p>Riset terbaru menunjukkan gambaran yang jauh lebih berhati-hati dari sekadar "percaya bisa, jadi bisa".</p>
+                    <a href="langkah-langkah-metode-ilmiah.html" class="more-card">
+                        <span class="more-tag">Metode Berpikir</span>
+                        <h3>Langkah-Langkah Metode Ilmiah: Cara Berpikir Sistematis yang Bisa Dipakai Siapa Saja</h3>
+                        <p>Metode ilmiah bukan cuma untuk laboratorium — kerangka berpikirnya bisa dipakai siapa saja.</p>
                         <span class="more-status more-status-ready">Baca Artikel <i class="fa-solid fa-arrow-right"></i></span>
                     </a>
                 </div>
@@ -126,7 +219,7 @@
         <section class="cta-band" id="konsultasi">
             <div class="container cta-inner">
                 <div>
-                    <h2>Ingin anak Anda belajar berpikir seperti ini di setiap mata pelajaran?</h2>
+                    <h2>Ingin anak Anda dilatih menyadari cara belajarnya sendiri?</h2>
                     <p>Jadwalkan konsultasi gratis dan temukan program Logicus yang tepat.</p>
                 </div>
                 <a href="https://logicus.online/#konsultasi" class="btn btn-lg cta-band-btn">Konsultasi Gratis <i class="fa-solid fa-arrow-right"></i></a>
