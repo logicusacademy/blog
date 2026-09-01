@@ -217,6 +217,7 @@
     background: var(--navy);
     border-left-color: var(--amber);
 }
+.callout-navy em { color: var(--amber); }
 .callout-navy i { color: var(--amber); }
 .callout-navy p { color: var(--cream); }
 
